@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/benmathews/bench"
 	"github.com/nsqio/go-nsq"
-	"github.com/tylertreat/bench"
 )
 
 // NSQRequesterFactory implements RequesterFactory by creating a Requester

@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/benmathews/bench"
 	"github.com/streadway/amqp"
-	"github.com/tylertreat/bench"
 )
 
 // AMQPRequesterFactory implements RequesterFactory by creating a Requester

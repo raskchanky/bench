@@ -11,7 +11,7 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/codahale/hdrhistogram"
+	hdrhistogram "github.com/HdrHistogram/hdrhistogram-go"
 )
 
 const (
@@ -173,7 +173,7 @@ func newConnectionBenchmark(requester Requester, requestRate uint64, duration ti
 		uncorrectedSuccessHistogram: hdrhistogram.New(1, maxRecordableLatencyNS, sigFigs),
 		errorHistogram:              hdrhistogram.New(1, maxRecordableLatencyNS, sigFigs),
 		uncorrectedErrorHistogram:   hdrhistogram.New(1, maxRecordableLatencyNS, sigFigs),
-		burst: int(burst),
+		burst:                       int(burst),
 	}
 }
 

@@ -3,8 +3,8 @@ package requester
 import (
 	"strconv"
 
+	"github.com/benmathews/bench"
 	"github.com/garyburd/redigo/redis"
-	"github.com/tylertreat/bench"
 )
 
 // RedisRequesterFactory implements RequesterFactory by creating a Requester
