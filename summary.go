@@ -5,6 +5,7 @@ import (
 	"time"
 
 	"github.com/HdrHistogram/hdrhistogram-go"
+	"github.com/benmathews/hdrhistogram-writer"
 )
 
 // Summary contains the results of a Benchmark run.
