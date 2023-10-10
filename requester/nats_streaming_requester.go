@@ -7,8 +7,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/benmathews/bench"
 	"github.com/nats-io/stan.go"
+	"github.com/raskchanky/bench"
 )
 
 // NATSStreamingRequesterFactory implements RequesterFactory by creating a

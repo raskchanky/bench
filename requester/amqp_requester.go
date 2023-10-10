@@ -5,7 +5,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/benmathews/bench"
+	"github.com/raskchanky/bench"
 	"github.com/streadway/amqp"
 )
 

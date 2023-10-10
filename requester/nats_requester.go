@@ -4,8 +4,8 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/benmathews/bench"
 	"github.com/nats-io/nats.go"
+	"github.com/raskchanky/bench"
 )
 
 // NATSRequesterFactory implements RequesterFactory by creating a Requester

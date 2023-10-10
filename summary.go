@@ -4,8 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	hdrhistogram "github.com/HdrHistogram/hdrhistogram-go"
-	"github.com/benmathews/hdrhistogram-writer"
+	"github.com/HdrHistogram/hdrhistogram-go"
 )
 
 // Summary contains the results of a Benchmark run.
